@@ -4,8 +4,7 @@
     <parent>
         <groupId>org.jboss</groupId>
         <artifactId>jboss-parent</artifactId>
-        <version>20</version>
-        <relativePath></relativePath>
+        <version>20.0.0.redhat-1</version>
     </parent>    
 
 	<groupId>org.modeshape</groupId>
