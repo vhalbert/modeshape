@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jboss</groupId>
         <artifactId>jboss-parent</artifactId>
-        <version>20.0.0.redhat-1</version>
+        <version>24</version>
     </parent>    
 
 	<groupId>org.modeshape</groupId>
@@ -63,10 +63,11 @@
         <module>deploy</module>
         <module>modeshape-distribution</module>
 
-        <!-- Finally the BOMs -->
+        <!-- Finally the BOMs 
         <module>boms/modeshape-bom-embedded</module>
         <module>boms/modeshape-bom-jbossas</module>
         <module>boms/modeshape-bom-remote-client</module>
+        -->
     </modules>
 	<properties>
 		<rootDir>${project.basedir}</rootDir>
